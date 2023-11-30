@@ -16,87 +16,94 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <img src="Images/Amazon-Logo.png" alt="" />
-          <div class="location">
-            <div class="delivery">
-              <div>
-                <p class="deli">Delivering to Ahmedabad 380007</p>
-                <p class="up">
-                  <i class="fa-solid fa-location-dot">&ensp;</i>Update Location
-                </p>
+        <div class="nav-bar">
+          <nav>
+            <img src="Images/Amazon-Logo.png" alt="" />
+            <div class="location">
+              <div class="delivery">
+                <div>
+                  <p class="deli">Delivering to Ahmedabad 380007</p>
+                  <p class="up">
+                    <i class="fa-solid fa-location-dot">&ensp;</i>Update
+                    Location
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="search-bar">
-            <div class="all">
-              <select class="for" name="name" id="">
-                <option value="">All</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
-                <option value="">Army</option>
+            <div class="search-bar">
+              <div class="all">
+                <select class="for" name="name" id="">
+                  <option value="">All</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                  <option value="">Army</option>
+                </select>
+                <!-- <label for="text"></label> -->
+                <input
+                  type="text"
+                  class="text"
+                  placeholder="Search Amazon.in"
+                />
+                <div class="search-icon">
+                  <img class="Search" src="Images/search-icon.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="lang-div">
+              <img
+                src="../../Assignment/CSS/IMAGE/Flag_of_India.svg.png"
+                alt=""
+                width="20px"
+                class="tiranga"
+              />
+              <select name="lauguage" id="" class="lauguage">
+                <option value="">EN</option>
+                <option value="">HINDI</option>
+                <option value="">URDU</option>
+                <option value="">FRANCE</option>
+                <option value="">SANSKRIT</option>
               </select>
-              <!-- <label for="text"></label> -->
-              <input type="text" class="text" placeholder="Search Amazon.in" />
-              <div class="search-icon">
-                <img class="Search" src="Images/search-icon.png" alt="" />
-              </div>
             </div>
-          </div>
 
-          <div class="lang-div">
-            <img
-              src="../../Assignment/CSS/IMAGE/Flag_of_India.svg.png"
-              alt=""
-              width="20px"
-              class="tiranga"
-            />
-            <select name="lauguage" id="" class="lauguage">
-              <option value="">EN</option>
-              <option value="">HINDI</option>
-              <option value="">URDU</option>
-              <option value="">FRANCE</option>
-              <option value="">SANSKRIT</option>
-            </select>
-          </div>
+            <div class="account">
+              <!-- <div> -->
+              <p class="sign">Hello , Sign in</p>
+              <select class="ac" name="account" id="">
+                <option value="">Account & Lists</option>
+                <option value="">Your Account</option>
+                <option value="">Your Order</option>
+                <option value="">Your Wish Lists</option>
+                <option value="">Your Recommendations</option>
+                <option value="">Your Wallet</option>
+              </select>
+              <!-- </div> -->
+            </div>
 
-          <div class="account">
-            <!-- <div> -->
-            <p class="sign">Hello , Sign in</p>
-            <select class="ac" name="account" id="">
-              <option value="">Account & Lists</option>
-              <option value="">Your Account</option>
-              <option value="">Your Order</option>
-              <option value="">Your Wish Lists</option>
-              <option value="">Your Recommendations</option>
-              <option value="">Your Wallet</option>
-            </select>
-            <!-- </div> -->
-          </div>
+            <div class="order">
+              <p class="return">Returns</p>
+              <h3 class="ord">& Orders</h3>
+            </div>
 
-          <div class="order">
-            <p class="return">Returns</p>
-            <h3 class="ord">& Orders</h3>
-          </div>
-
-          <div class="cart">
-            <h4 class="o">0</h4>
-            <img
-              class="cart-icon"
-              src="Images/cart-icon.png"
-              alt=""
-              width="45px"
-            />
-            <h3 class="bcart">Cart</h3>
-          </div>
-        </nav>
+            <div class="cart">
+              <h4 class="o">0</h4>
+              <img
+                class="cart-icon"
+                src="Images/cart-icon.png"
+                alt=""
+                width="45px"
+              />
+              <h3 class="bcart">Cart</h3>
+            </div>
+          </nav>
+        </div>
 
         <div class="tarun">
           <ul>
@@ -109,31 +116,161 @@
             <li>Customer Service</li>
             <li>Electronics</li>
             <li>New Releases</li>
-            <li><img src="Images/second bar.jpg" alt="" width="400px" /></li>
+            <li><img src="Images/second bar.jpg" alt="" /></li>
           </ul>
         </div>
 
         <section>
           <div class="first-sec">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
+            <img src="./Images/Home_background1.jpg" alt="" width="100%" />
+            <img src="./Images/Arrow.png" alt="" width="100%" class="Arrow" />
           </div>
-          <!-- <div class="sec-01">
-            <marquee behavior="" direction="right" height="500px" width="100%">
-              <img src="./Images/Home_background1.jpg" alt="" />
-              <img src="./Images/Home_background2.jpg" alt="" />
-              <img src="./Images/Home_background3.jpg" alt="" />
-              <img src="./Images/Home_background4.jpg" alt="" />
-              <img src="./Images/Home_background5.jpg" alt="" />
-              <img src="./Images/Home_background6.jpg" alt="" />
-              <img src="./Images/Home_background7.jpg" alt="" />
-            </marquee>
-          </div> -->
+
+          <div class="boxes">
+            <div class="box1">
+              <h2>
+                Deals inspired by your <br />
+                recent history
+              </h2>
+              <div class="gaurav">
+                <div class="gaurav01">
+                  <img src="./Images/box1.jpg" alt="" class="fp" />
+                  <p class="off">46% off</p>
+                  <p class="deal">Deal</p>
+                </div>
+                <div class="gaurav03">
+                  <img src="./Images/box2.jpg" alt="" class="fp01" />
+                  <p class="off01">47% off</p>
+                  <p class="deal01">Deal</p>
+                </div>
+              </div>
+
+              <div class="gaurav4">
+                <div class="gaurav05">
+                  <img src="./Images/box3.jpg" alt="" class="fp02" />
+                  <p class="off02">46% off</p>
+                  <p class="deal02">Deal</p>
+                </div>
+                <div class="gaurav06">
+                  <img src="./Images/box4.jpg" alt="" class="fp03" />
+                  <p class="off03">47% off</p>
+                  <p class="deal03">Deal</p>
+                  <div><a class="last" href="#">See all deals</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="box2">
+              <h2>
+                Starting ₹109 | Premium <br />
+                diapers, handpicked toys...
+              </h2>
+              <div class="arma">
+                <div class="arma01">
+                  <img src="./Images/secbox1.jpg" alt="" class="secphoto" />
+                  <p class="on">Starting ₹109 | Baby <br />diapers & wipes</p>
+                </div>
+                <div class="arma03">
+                  <img src="./Images/secbox2.jpg" alt="" class="secphoto01" />
+                  <p class="on01">
+                    Minimum 45% off | <br />
+                    Baby rocker, play...
+                  </p>
+                </div>
+              </div>
+
+              <div class="arma4">
+                <div class="arma05">
+                  <img src="./Images/secbox3.jpg" alt="" class="secphoto02" />
+                  <p class="on02">Starting ₹159 | <br />Indoor toys & games</p>
+                </div>
+                <div class="arma06">
+                  <img src="./Images/secbox4.jpg" alt="" class="secphoto03" />
+                  <p class="on03">
+                    Up to 60% off |<br />
+                    Bikes, trikes & ride...
+                  </p>
+
+                  <div><a class="last01" href="#">See all deals</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="box3">
+              <h2>
+                Up to 75% off | <br />
+                Headphones
+              </h2>
+              <div class="deepak">
+                <div class="deepak01">
+                  <img src="./Images/boat1.jpg" alt="" class="secimg" />
+                  <p class="para">Up to 75% off | boAt</p>
+                </div>
+                <div class="deepak03">
+                  <img src="./Images/boat2.jpg" alt="" class="secimg01" />
+                  <p class="para01">Up to 75% off | boult</p>
+                </div>
+              </div>
+              <div class="deepak4">
+                <div class="deepak05">
+                  <img src="./Images/boat3.jpg" alt="" class="secimg02" />
+                  <p class="para02">Up to 75% off | Noise</p>
+                </div>
+                <div class="deepak06">
+                  <img src="./Images/boat4.jpg" alt="" class="secimg03" />
+                  <p class="para03">Up to 75% off | Zebronics</p>
+
+                  <div><a class="last02" href="#">See all deals</a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box4">
+              <div class="col-25">
+                <div class="input">
+                  <h2>Sign in for your best experience</h2>
+                  <button class="sign-in">Sign in securely</button>
+                </div>
+              </div>
+              <div class="col-50">
+                <div class="box5">
+                  <img
+                    src="./Images/faberlogo.png"
+                    alt=""
+                    width="100px"
+                    class="faber"
+                  />
+                  <img
+                    src="./Images/faberimage.jpg"
+                    alt=""
+                    width="180px"
+                    class="faber01"
+                  />
+
+                  <p class="one">
+                    Faber 60cm 1200 m3/hr, Autoclean Chimney ||Filterless|| 5Yr
+                    Warranty on Motor(1Yr...
+                  </p>
+                  <p class="stars">
+                    <i class="fa-solid fa-star" style="color: #ffc800"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800"></i>
+                    <i class="fa-solid fa-star" style="color: #ffc800"></i>
+                  </p>
+
+                  <p class="first-p">340</p>
+                  <p class="rupya">₹</p>
+                  <p class="second-p">12,662</p>
+                  <p class="zero">00</p>
+                  <img
+                    src="./Images/prime.png"
+                    alt=""
+                    class="prime-img"
+                    width="40px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </header>
