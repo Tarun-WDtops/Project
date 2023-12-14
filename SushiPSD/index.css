@@ -1,0 +1,494 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../SushiPSD/Images/Indexbgpic.png);
+  color: white;
+}
+.container {
+  padding-bottom: 65px;
+}
+.nav-bar {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9999999999999999) 85%,
+    rgba(0, 0, 0, 0.9999999999999999) 100%
+  );
+  background-color: #21243d;
+  border-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* margin-left: 20px; */
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: large;
+  gap: 200px;
+  padding-left: 50px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+  /* margin-left: 100px; */
+}
+h1 {
+  font-size: 75px;
+  padding-bottom: 20px;
+}
+.main-heading {
+  margin-left: 50px;
+  padding-top: 80px;
+}
+
+button {
+  color: white;
+  background-color: rgb(243, 77, 77);
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 96px;
+  border-style: none;
+}
+.fa-solid {
+  padding-left: 150px;
+}
+
+.container1 {
+  background-color: #21243d;
+  color: white;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.main-text1 h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.main-text1 p {
+  text-align: center;
+}
+[class*="box"] h3 {
+  font-size: small;
+  margin-left: 18px;
+  padding-bottom: 10px;
+}
+[class*="box"] p {
+  margin-left: 25px;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../SushiPSD/Images/sushibox1.png);
+  background-size: cover;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../SushiPSD/Images/sushibox2.png);
+  background-size: cover;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../SushiPSD/Images/sushibox3.png);
+  background-size: cover;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+.bground {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+.zigzag {
+  position: absolute;
+  top: 160px;
+  left: 90px;
+}
+.bground-01 {
+  position: absolute;
+  bottom: 100px;
+  left: -50px;
+}
+.dotted {
+  position: absolute;
+  right: -25px;
+  bottom: 240px;
+}
+.zigzag-01 {
+  position: absolute;
+  right: 0px;
+  bottom: 100px;
+}
+.dotted-01 {
+  position: absolute;
+  top: -60px;
+  left: 300px;
+  transform: rotate(90deg);
+}
+
+.section2 {
+  background-color: #ffd17e;
+  position: relative;
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+}
+.main-text2 {
+  color: #21243d;
+  align-items: center;
+  margin-top: 50px;
+}
+[class="main-text2"] button {
+  background-color: #21243d;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+.main-text2 h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.tarun {
+  width: 300px;
+  height: 300px;
+  background: url(../SushiPSD/Images/Section3pic.png) center center/cover;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+
+.blueround {
+  position: absolute;
+  top: 125px;
+  left: 210px;
+  transform: rotate(-3deg);
+  z-index: 111;
+}
+.blueround1 {
+  position: absolute;
+  bottom: 70px;
+  right: -50px;
+}
+.bluedotted {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+.bluedotted1 {
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+}
+.bluezigzag {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+}
+
+.container-03 {
+  background-color: #21243d;
+  color: white;
+  padding-top: 72px;
+  padding-bottom: 55px;
+  position: relative;
+  overflow: hidden;
+}
+.main-text-03 h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-text-03 {
+  text-align: center;
+}
+.box-01 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.boxes-01 {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+[Class*="box"] h2 {
+  font-size: 60px;
+  padding-left: 45px;
+  padding-top: 25px;
+}
+[Class*="box"] h3 {
+  font-size: 25px;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.sushiround {
+  position: absolute;
+  top: 80px;
+  right: 110px;
+}
+.sushiround1 {
+  position: absolute;
+  left: 380px;
+  bottom: -80px;
+}
+.sushidotted {
+  position: absolute;
+  bottom: 0px;
+  right: 440px;
+  transform: rotate(90deg);
+}
+.sushidotted1 {
+  position: absolute;
+  left: 180px;
+  top: 20px;
+  transform: rotate(90deg);
+}
+.sushizigzag {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+.sushizigzag1 {
+  position: absolute;
+  bottom: 80px;
+  right: 70px;
+}
+
+.section4 {
+  background-color: #ffd17e;
+  position: relative;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  overflow-x: hidden;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+.main-text4 {
+  color: #21243d;
+  align-items: center;
+  margin-top: 50px;
+}
+[class="main-text4"] button {
+  background-color: #21243d;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+.main-text4 h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding-right: 80px;
+}
+.main-text4 p {
+  font-size: 20px;
+}
+.tarun4 {
+  width: 300px;
+  height: 300px;
+  background: url(../SushiPSD/Images/Section3pic.png) center center/cover;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+.roundblue {
+  position: absolute;
+  top: 70px;
+  right: 220px;
+  z-index: 111;
+}
+.roundblue1 {
+  position: absolute;
+  bottom: 50px;
+  right: 650px;
+}
+.dottedblue {
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
+}
+.dottedblue1 {
+  position: absolute;
+  left: 570px;
+  top: -20px;
+  transform: rotate(90deg);
+}
+.zigzagblue {
+  position: absolute;
+  top: 120px;
+  left: 270px;
+}
+
+.container5 {
+  background: url(../SushiPSD/Images/secsixbgpic.png);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.box-05 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url(../SushiPSD/Images/sec6boxpic.png) no-repeat center
+    center/cover;
+  margin-top: 50px;
+}
+.box-05 {
+  margin: auto;
+  margin-bottom: 30px;
+}
+.main-text5 {
+  text-align: center;
+}
+.main-text5 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.main-text5 h2 {
+  font-size: 30px;
+  padding-bottom: 56px;
+}
+.section-06 {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #ffd17e;
+  position: relative;
+  overflow: hidden;
+}
+.container-06 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.main-text-06 {
+  text-align: center;
+}
+.main-text-06 h2 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.main-text-06 p {
+  font-size: 20px;
+}
+.sub-button {
+  padding-top: 30px;
+}
+.emailid {
+  width: 250px;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  border-style: none;
+}
+.button-06 {
+  width: 150px;
+  height: 30px;
+  background-color: #21243d;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding-right: 10px;
+}
+.roundblue6 {
+  position: absolute;
+  top: 30px;
+  right: -40px;
+}
+.roundblue-06 {
+  position: absolute;
+  bottom: 30px;
+  right: 600px;
+}
+.dottedblue6 {
+  position: absolute;
+  bottom: 50px;
+  right: 110px;
+}
+
+.dottedblue-06 {
+  position: absolute;
+  left: 130px;
+  top: 35px;
+  transform: rotate(90deg);
+}
+.zigzagblue6 {
+  position: absolute;
+  top: 80px;
+  right: 350px;
+}
+.zigzagblue-06 {
+  position: absolute;
+  bottom: 120px;
+  left: 170px;
+}
+
+.container-07 {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+li {
+  list-style-type: none;
+}
+.col-25 {
+  font-family: sans-serif;
+  font-size: medium;
+  padding-top: 60px;
+}
+.col-25 h2 {
+  padding-bottom: 20px;
+}
+.col-25 p {
+  padding-bottom: 20px;
+}
+.col-50 {
+  padding-bottom: 100px;
+  margin-bottom: 82px;
+  padding-top: 60px;
+}
+.col-50 h2 {
+  padding-bottom: 20px;
+}
+.col-50 p {
+  padding-bottom: 20px;
+}
+.fa-brands {
+  gap: 30px;
+}
