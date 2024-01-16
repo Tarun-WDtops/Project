@@ -470,6 +470,7 @@ img {
   background-color: #f2f2f2;
   border: none;
   margin-bottom: 20px;
+  padding-left: 10px;
 }
 .mass-input {
   width: 400px;
@@ -477,6 +478,7 @@ img {
   padding-top: 10px;
   background-color: #f2f2f2;
   border: none;
+  padding-left: 10px;
 }
 .sec-07-h2 {
   font-size: 30px;
