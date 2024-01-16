@@ -157,24 +157,71 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
   .container-wrapper {
-    padding-left: 40px;
+    padding-left: 75px;
   }
   .container-wrapper-01 {
-    padding-left: 35px;
+    padding-left: 50px;
+    gap: 35px;
   }
   .ul-01 {
     gap: 25px;
   }
   .container-wrapper-01 p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .firstH1 {
     font-size: 25px;
+    padding-bottom: 30px;
   }
   .img-02 {
-    width: 200px;
+    width: 240px;
+    z-index: 1;
   }
   .menu-box {
     flex-direction: column;
+  }
+  .blueshape {
+    width: 40px;
+    top: 0px;
+    left: -10px;
+  }
+  .orangewaveshape {
+    width: 80px;
+    left: -20px;
+  }
+  .firstbtn {
+    width: 100px;
+    height: 30px;
+  }
+  .bluewaveshape {
+    width: 110px;
+  }
+  .yellowshape {
+    width: 30px;
+    right: 15px;
+    z-index: -1;
+  }
+  .orangeshape {
+    width: 40px;
+    left: 240px;
+    top: 250px;
+  }
+  .box-01 {
+    padding: 0px;
+  }
+  .img-00 {
+    width: 67px;
+  }
+  .img-001 {
+    width: 100px;
+  }
+  .img-002 {
+    width: 72px;
+  }
+  .box-hthree h3 {
+    font-size: 20px;
+  }
+  .box-hthree p {
+    font-size: 14px;
   }
 }

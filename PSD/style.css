@@ -108,6 +108,8 @@ img {
   width: 400px;
 }
 
+/* Section - 02 */
+
 .boxes {
   display: flex;
   justify-content: space-around;
