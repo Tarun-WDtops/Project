@@ -35,20 +35,146 @@
     top: 350px;
     left: 500px;
   }
+  .blueshape01 {
+    bottom: 25px;
+  }
+  .yellowshape02 {
+    width: 45px;
+  }
+  .bluewaveshape {
+    width: 250px;
+    z-index: -1;
+  }
+  .pause {
+    left: 470px;
+  }
+  .bluewaveshape002 {
+    top: -10px;
+  }
+  .bluewaveshape02 {
+    top: -10px;
+  }
+  .img-02 {
+    z-index: 1;
+  }
 }
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1200px) {
+  .container-wrapper {
+    padding-left: 50px;
+  }
+  .firstH1 {
+    font-size: 50px;
+  }
+  .photo-text-h2 {
+    font-size: 50px;
+  }
+  .menu-text-01 {
+    font-size: 40px;
+  }
+  .store {
+    font-size: 40px;
+  }
+  .sec-07-h2 {
+    font-size: 40px;
+  }
+  .bluebanana {
+    right: 540px;
+  }
+  .bluebanana01 {
+    bottom: 90px;
+    right: 150px;
+  }
+  .blueshape {
+    top: 0px;
+  }
+  .yellowshape {
+    right: 30px;
+  }
+  .orangeshape {
+    top: 350px;
+    left: 500px;
+  }
+  .orangewaveshape02 {
+    width: 130px;
+  }
+  .blueshape01 {
+    bottom: 25px;
+  }
+  .yellowshape02 {
+    width: 45px;
+  }
+  .bluewaveshape {
+    width: 200px;
+    z-index: -1;
+  }
+  .bluewaveshape002 {
+    top: -10px;
+  }
+  .bluewaveshape02 {
+    top: -10px;
+  }
+  .img-02 {
+    z-index: 1;
+  }
+  .pause {
+    left: 380px;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
+  .container-wrapper-01 {
+    gap: 100px;
+  }
+  .firstH1 {
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+  .container-wrapper {
+    padding-left: 82px;
+  }
+  .container-wrapper-01 {
+    gap: 0px;
+  }
+  .firstH1 {
+    font-size: 45px;
+  }
+  .firstP {
+    font-size: 13px;
+  }
+  .menu-box {
+    gap: 0px;
+    padding-left: 100px;
+  }
+  .menu-text-01 {
+  }
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
+  .container-wrapper {
+    padding-left: 40px;
+  }
+  .container-wrapper-01 {
+    padding-left: 35px;
+  }
+  .ul-01 {
+    gap: 25px;
+  }
+  .container-wrapper-01 p {
+    font-size: 14px;
+  }
+  .firstH1 {
+    font-size: 25px;
+  }
+  .img-02 {
+    width: 200px;
+  }
+  .menu-box {
+    flex-direction: column;
+  }
 }

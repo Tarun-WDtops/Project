@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: red;
+}
 .container-wrapper {
   border-color: white;
   padding: 20px 50px 0px 45px;
@@ -49,7 +52,7 @@ img {
 .bluewaveshape {
   width: 110px;
   position: absolute;
-  top: 0px;
+  top: -20px;
   right: 0px;
 }
 .orangewaveshape {
@@ -70,8 +73,8 @@ img {
   font-family: sans-serif;
   padding-bottom: 50px;
 }
-.firstP {
-  padding-bottom: 50px;
+.container-wrapper-01 P {
+  padding-bottom: 5px;
 }
 .firstbtn {
   width: 150px;
@@ -82,6 +85,7 @@ img {
   /* padding-top: 5px; */
   font-weight: bold;
   position: relative;
+  margin-top: 50px;
   z-index: 1;
 }
 .firstbtn:after {
