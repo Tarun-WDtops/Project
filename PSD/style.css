@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  /* background-color: red; */
-}
+
 .container-wrapper {
   border-color: white;
   padding: 20px 50px 0px 45px;

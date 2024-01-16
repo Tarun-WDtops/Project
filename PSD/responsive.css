@@ -128,8 +128,6 @@
   .container-wrapper-01 {
     gap: 100px;
   }
-  .firstH1 {
-  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -149,8 +147,6 @@
   .menu-box {
     gap: 0px;
     padding-left: 100px;
-  }
-  .menu-text-01 {
   }
 }
 
