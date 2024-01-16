@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: red;
+  /* background-color: red; */
 }
 .container-wrapper {
   border-color: white;
@@ -221,12 +221,12 @@ img {
   display: flex;
   align-items: center;
   gap: 20px;
-  /* border: 1px solid #f2f2f2; */
-  padding: 2px 30px 23px 0px;
-  background: url(../PSD/Image/shadow.png) no-repeat center/cover;
+  border: 1px solid #f2f2f2;
+  padding: 2px 30px 0px 0px;
+  /* background: url(../PSD/Image/shadow.png) no-repeat center/cover; */
 }
 .menu-img-001 {
-  width: 150px;
+  width: 155px;
 }
 
 .menu-box-001 p {
@@ -273,12 +273,12 @@ img {
   width: 35px;
   position: absolute;
   bottom: 100px;
-  left: 7px;
+  left: -7px;
 }
 .orangeshape02 {
   width: 60px;
   position: absolute;
-  bottom: -15px;
+  bottom: 0px;
   right: 559px;
   /* transform: rotate(90deg); */
 }
@@ -319,6 +319,7 @@ img {
   padding: 30px 0px 50px 0px;
   justify-content: center;
   gap: 150px;
+  margin-bottom: 10px;
 }
 .store {
   font-size: 30px;
@@ -326,9 +327,9 @@ img {
   padding: 20px 0px 20px 0px;
 }
 .flex-01 {
-  width: 250px;
+  width: 255px;
   position: relative;
-  /* border: 2px solid #ffff; */
+  border: 1px solid #ffff;
   background-color: #f2f2f2;
 }
 
@@ -400,11 +401,12 @@ img {
 }
 .social-icons {
   display: flex;
-  gap: 45px;
+  gap: 20px;
+  width: 20px;
   padding-top: 30px;
 }
 .para-sec-06 {
-  padding: 40px 0px 40px 0px;
+  padding-top: 30px;
 }
 .text-icons {
   flex-direction: row;
