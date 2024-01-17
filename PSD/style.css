@@ -460,7 +460,7 @@ img {
 }
 .sec-07-container {
   display: flex;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 .sec-07-img {
   width: 450px;
