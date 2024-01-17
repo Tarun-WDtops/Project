@@ -124,9 +124,132 @@
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
+  /* Section - 01 */
+
+  .container-wrapper {
+    padding-left: 65px;
+  }
   .container-wrapper-01 {
-    gap: 100px;
+    gap: 110px;
+  }
+  /* .container-wrapper-01 p {
+    font-size: 14px;
+  } */
+  /* .ul-01 {
+    gap: 30px;
+  } */
+  /* .firstH1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+  } */
+  /* .firstP {
+    font-size: 13px;
+  } */
+  /* .firstbtn {
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+  } */
+  /* .img-02 {
+    width: 330px;
+    z-index: 1;
+  } */
+  .blueshape {
+    width: 55px;
+    top: 0px;
+  }
+  .bluewaveshape {
+    width: 180px;
+  }
+  .orangewaveshape {
+    width: 120px;
+    left: -30px;
+  }
+  .yellowshape {
+    width: 50px;
+    right: 60px;
+    z-index: -1;
+  }
+  .orangeshape {
+    width: 50px;
+    left: 380px;
+  }
+
+  /* Section - 03 */
+
+  .photo-text-h2 {
+    font-size: 37px;
+  }
+  .photo-text {
+    gap: 80px;
+  }
+  .orangeshape01 {
+    right: 50px;
+  }
+  .orangewaveshape01 {
+    width: 135px;
+  }
+  .blueshape01 {
+    width: 55px;
+    bottom: 40px;
+    left: 485px;
+  }
+
+  /* Section - 04 */
+
+  .menu-box {
+    gap: 10px;
+  }
+  .menu-img-001 {
+    width: 130px;
+  }
+  .menu-box-001 p {
+    font-size: 10px;
+  }
+  .menu-box-01 {
+    width: 310px;
+    gap: 10px;
+  }
+
+  /* Section - 05 */
+
+  .section-05-flex {
+    gap: 50px;
+  }
+  .col-15 {
+    width: 254px;
+  }
+  .bluewaveshape002 {
+    width: 110px;
+  }
+  .bluewaveshape02 {
+    width: 130px;
+  }
+  .orangewaveshape02 {
+    width: 100px;
+  }
+  .orangeshape02 {
+    right: 450px;
+  }
+
+  /* Section - 06 */
+
+  .pause {
+    left: 270px;
+  }
+
+  /* Section -07 */
+
+  .yellowshape07 {
+    top: 60px;
+  }
+  .bluebanana01 {
+    right: 40px;
+  }
+  .bluebanana {
+    top: 37px;
+    right: 430px;
   }
 }
 
@@ -257,6 +380,7 @@
   .menu-box-01 {
     width: 450px;
     gap: 70px;
+    box-shadow: 3px 3px 3px 3px #d9d1d1;
   }
 
   /* Section - 05 */
@@ -268,10 +392,11 @@
     font-size: 15px;
   }
   .section-05-flex {
-    gap: 0px;
+    gap: 30px;
   }
   .flex-01 {
     width: 200px;
+    box-shadow: 3px 3px 3px 3px #d9d1d1;
   }
   .positionbtn {
     width: 90px;
@@ -280,6 +405,137 @@
     padding-top: 7px;
     top: 138px;
     left: 55px;
+  }
+  .col-30 {
+    padding-left: 5px;
+    padding-top: 45px;
+  }
+  .col-30 p {
+    font-size: 13px;
+  }
+  .orangeshape02 {
+    width: 50px;
+    bottom: -10px;
+    right: 340px;
+  }
+  .yellowshape02 {
+    width: 30px;
+    bottom: 120px;
+  }
+  .orangewaveshape02 {
+    width: 86px;
+    right: -15px;
+  }
+  .bluewaveshape002 {
+    width: 100px;
+  }
+  .bluewaveshape02 {
+    width: 120px;
+  }
+  .blueshape02 {
+    width: 50px;
+  }
+
+  /* Section - 06 */
+
+  .section-06-container {
+    gap: 20px;
+  }
+  .sec-06-text h3 {
+    font-size: 30px;
+  }
+  .sec-06-text p {
+    font-size: 15px;
+  }
+  .sec-06-image {
+    width: 400px;
+    box-shadow: 3px 3px 3px 3px #d9d1d1;
+  }
+  .pause {
+    left: 200px;
+  }
+
+  /*  Section - 07 */
+
+  .sec-07-img {
+    width: 350px;
+  }
+  .name-input {
+    width: 250px;
+    height: 30px;
+  }
+
+  .mass-input {
+    width: 250px;
+    height: 70px;
+    padding-top: 0px;
+  }
+  .sec-07-text {
+    margin: 30px auto;
+  }
+  .sec-07-h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+  .lastbtn {
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 35px;
+  }
+  .orangewave07 {
+    width: 90px;
+    left: 297px;
+  }
+  .bluebanana {
+    width: 27px;
+    top: 25px;
+    right: 305px;
+  }
+  .orangesingal {
+    width: 85px;
+    top: -10px;
+  }
+  .yellowshape07 {
+    width: 27px;
+    top: 30px;
+    right: 15px;
+  }
+  .bluebanana01 {
+    width: 40px;
+    right: 60 px;
+  }
+  .orangewave07 {
+    width: 90px;
+    left: 328px;
+  }
+
+  /* Footer */
+
+  .footer-text-01 h3 {
+    font-size: 18px;
+  }
+  .footer-text-01 p {
+    font-size: 14px;
+  }
+  .logo-div {
+    width: 74px;
+  }
+  .logo-div-01 {
+    width: 40px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+  .footer-icons {
+    width: 15px;
+    padding-top: 22px;
+    gap: 15px;
+  }
+  .halimun {
+    padding-top: 21px;
+  }
+  .last-p {
+    padding-top: 32px;
   }
 }
 
