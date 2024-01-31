@@ -371,10 +371,11 @@
     font-size: 15px;
   }
   .section-05-flex {
-    gap: 30px;
+    justify-content: space-around;
+    gap: 0px;
   }
   .flex-01 {
-    width: 200px;
+    /* width: 260px; */
     box-shadow: 3px 3px 3px 3px #d9d1d1;
   }
   .positionbtn {
@@ -382,11 +383,11 @@
     height: 35px;
     font-size: 15px;
     padding-top: 7px;
-    top: 138px;
-    left: 55px;
+    top: 182px;
+    left: 80px;
   }
   .col-30 {
-    padding-left: 5px;
+    padding-left: 30px;
     padding-top: 45px;
   }
   .col-30 p {
