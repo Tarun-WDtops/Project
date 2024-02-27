@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-img {
-  width: 100%;
-}
+
 .container {
   background-color: gray;
 }
@@ -285,6 +283,9 @@ nav {
   font-weight: bold;
   font-size: 20px;
 }
+.last:hover {
+  color: brown;
+}
 .box2 {
   width: 24%;
   height: 520px;
@@ -330,6 +331,9 @@ nav {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+}
+.last01:hover {
+  color: brown;
 }
 .box3 {
   width: 24%;
@@ -377,6 +381,9 @@ nav {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+}
+.last02:hover {
+  color: brown;
 }
 
 .col-25 {
