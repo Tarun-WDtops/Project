@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: gray;
+}
+.container-wrapper {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 0px 20px;
+}
+img {
+  width: 100%;
+}
+
+#dire {
+  border: none;
+  background-color: gray;
+}
+#No {
+  padding-left: 30px;
+}
