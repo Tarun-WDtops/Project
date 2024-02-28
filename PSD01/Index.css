@@ -3,14 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  background-color: gray;
-}
+
 .container-wrapper {
   height: 30px;
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px 0px 20px;
+  padding: 10px 20px 0px 20px;
 }
 img {
   width: 100%;
@@ -18,8 +16,218 @@ img {
 
 #dire {
   border: none;
-  background-color: gray;
+  background-color: transparent;
 }
 #No {
   padding-left: 30px;
+}
+header {
+  background: url(./Image/MainSectionImage.jpeg) no-repeat center/cover;
+  height: 600px;
+}
+.container-wrapper-01 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  position: sticky;
+}
+.logo {
+  width: 200px;
+}
+#dropdown {
+  border: none;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+.first-section {
+  display: flex;
+  justify-content: end;
+  padding-right: 70px;
+  padding-top: 100px;
+}
+.first-two {
+  padding-top: 50px;
+}
+.last-four {
+  padding-top: 50px;
+}
+.first-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #a49687;
+  border-radius: 30px;
+  border: none;
+  margin-left: 90px;
+}
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+.first-text p {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.second-section h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 100px 0px 60px 0px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.first {
+  width: 300px;
+  border: 2px solid #7c797926;
+  border-radius: 50px;
+  text-align: center;
+}
+.first h2 {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.third-section {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.sec-course {
+  font-size: 40px;
+  padding: 70px 0px 30px 0px;
+}
+.third-section p {
+  font-size: 19px;
+  padding-bottom: 40px;
+}
+.course-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #a49687;
+  border-radius: 30px;
+  border: none;
+}
+.course {
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-first h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.course-first img {
+  width: 300px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+.section-four {
+  display: flex;
+  align-items: center;
+}
+.about-img img {
+  width: 700px;
+  border-radius: 100px;
+}
+.about-text h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  padding: 20px;
+}
+.about-text p {
+  text-align: center;
+  font-family: sans-serif;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.sec-five h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 35px;
+}
+.pahla {
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  background-color: #a49687;
+  border-radius: 50px;
+}
+.col-25 {
+  height: 50px;
+  background-color: chocolate;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.one {
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.col-50 p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* Gallery */
+
+.Gallery h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.Gallery-01 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 10px;
+  width: 100%;
+}
+.div1 {
+  background: url(./Image/photo1.jpg) no-repeat center center/cover;
+  grid-column: 1/4;
+}
+.div2 {
+  background: url(./Image/photo2.jpg) no-repeat center center/cover;
+}
+.div3 {
+  background: url(./Image/photo3.jpg) no-repeat center center/cover;
+  grid-column: 1/2;
+}
+.div4 {
+  background: url(./Image/photo4.jpg) no-repeat center center/cover;
+  grid-column: 2/4;
+}
+.div5 {
+  background: url(./Image/photo5.jpg) no-repeat center center/cover;
+}
+.div6 {
+  background: url(./Image/photo6.jpg) no-repeat center center/cover;
+  grid-column: 1/3;
+}
+.div7 {
+  background: url(./Image/photo7.jpg) no-repeat center center/cover;
+  grid-column: 3/5;
+}
+.div8 {
+  background: url(./Image/photo8.jpg) no-repeat center center/cover;
+}
+.div9 {
+  background: url(./Image/photo15.jpg) no-repeat center center/cover;
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+.div10 {
+  background: url(./Image/photo10.jpg) no-repeat center center/cover;
 }
