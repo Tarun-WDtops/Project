@@ -17,9 +17,15 @@ img {
 #dire {
   border: none;
   background-color: transparent;
+  font-weight: bold;
+  font-size: large;
 }
 #No {
   padding-left: 30px;
+}
+span {
+  font-weight: bold;
+  font-size: larger;
 }
 header {
   background: url(./Image/MainSectionImage.jpeg) no-repeat center/cover;
@@ -31,6 +37,7 @@ header {
   justify-content: center;
   /* justify-content: space-around; */
   position: sticky;
+  top: 0;
 }
 .logo {
   width: 200px;
@@ -38,9 +45,13 @@ header {
 #dropdown {
   border: none;
   background-color: transparent;
+  font-weight: 700;
+  font-size: large;
 }
 a {
   text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
   color: black;
   margin-left: 30px;
 }
@@ -220,14 +231,140 @@ h1 {
   background: url(./Image/photo7.jpg) no-repeat center center/cover;
   grid-column: 3/5;
 }
-.div8 {
-  background: url(./Image/photo8.jpg) no-repeat center center/cover;
+
+.sec-seven h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
-.div9 {
-  background: url(./Image/photo15.jpg) no-repeat center center/cover;
-  grid-column: 2/4;
-  grid-row: 4/5;
+.video-flex {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
 }
-.div10 {
-  background: url(./Image/photo10.jpg) no-repeat center center/cover;
+
+/* Section - Eight */
+
+.sec-eight {
+  background: url(./Image/IndianNavy01.jpeg) fixed;
+  /* width: 100%; */
+  height: 500px;
+  opacity: 0.4;
+  /* filter: blur(10px); */
+}
+#section-08 {
+  position: relative;
+  padding-bottom: 100px;
+}
+.sec-eight-01 {
+  text-align: center;
+  padding-top: 100px;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.sec-eight-01 img {
+  width: 20px;
+}
+.sec-eight-01 p {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+.sec-htwo {
+  font-size: 35px;
+  font-family: sans-serif;
+  padding: 30px 0px 30px 0px;
+}
+.sec-htwo-01 {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.sec-nine {
+  display: flex;
+  justify-content: space-around;
+}
+.nine-htwo {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.two-part {
+  width: 600px;
+  border: 1px solid #ffff;
+  background-color: #a49687;
+  box-shadow: 5px 5px 5px 5px #d9d1d1;
+}
+.nine-col-25 img {
+  width: 100%;
+  height: 280px;
+}
+.nine-col-50 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #a49687;
+}
+.major {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 10px;
+}
+.trainer {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+.inputt {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 23px;
+  padding-left: 10px;
+}
+#massage {
+  padding: 10px 0px 0px 10px;
+}
+#form-id {
+  width: 100%;
+  height: 350px;
+}
+.inputbtn {
+  width: 150px;
+  height: 50px;
+  background-color: #a49687;
+  border-radius: 50px;
+  border: none;
+  margin-left: 500px;
+}
+
+/* footer */
+
+footer {
+  background-color: #a49687;
+}
+.footer-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.footer-div img {
+  width: 400px;
+  padding-top: 50px;
+}
+.info h2 {
+  font-size: 35px;
+  /* text-align: center;   */
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+.info p {
+  padding-bottom: 15px;
 }
