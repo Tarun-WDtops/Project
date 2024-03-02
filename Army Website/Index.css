@@ -67,14 +67,34 @@ a {
 .last-four {
   padding-top: 50px;
 }
-.first-btn {
+/* .first-btn {
   width: 150px;
   height: 50px;
   background-color: #a49687;
   border-radius: 30px;
   border: none;
   margin-left: 90px;
+} */
+
+.first-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  margin-left: 90px;
 }
+
+.first-btn:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
 h1 {
   font-size: 40px;
   font-family: sans-serif;
@@ -82,7 +102,7 @@ h1 {
 }
 .first-text p {
   font-size: 35px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .second-section h2 {
@@ -96,10 +116,14 @@ h1 {
   gap: 10px;
 }
 .first {
-  width: 300px;
+  width: 250px;
   border: 2px solid #7c797926;
   border-radius: 50px;
   text-align: center;
+}
+
+.first img:hover {
+  width: 80%;
 }
 .first h2 {
   padding-top: 10px;
@@ -117,12 +141,29 @@ h1 {
   font-size: 19px;
   padding-bottom: 40px;
 }
-.course-btn {
+/* .course-btn {
   width: 150px;
   height: 40px;
   background-color: #a49687;
   border-radius: 30px;
   border: none;
+} */
+.course-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.course-btn:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
 }
 .course {
   display: flex;
@@ -134,9 +175,12 @@ h1 {
   padding-bottom: 20px;
 }
 .course-first img {
-  width: 300px;
+  width: 250px;
   border-radius: 40px;
   margin-bottom: 20px;
+}
+.course-first img:hover {
+  width: 300px;
 }
 .section-four {
   display: flex;
@@ -187,6 +231,9 @@ h1 {
 }
 .col-50 p {
   padding: 20px;
+  font-size: 15px;
+}
+.col-50 :hover {
   font-size: 18px;
 }
 
