@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+img {
+  width: 100%;
+}
 .container {
   background-color: gray;
 }
@@ -26,15 +28,11 @@ nav {
 }
 .deli {
   color: gray;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .up {
   font-size: 20px;
   font-weight: 900;
-  padding-left: 20px;
-  position: absolute;
-  left: 175px;
-  gap: 10px;
 }
 .search-bar {
   position: relative;
@@ -88,6 +86,7 @@ nav {
 }
 
 .tiranga {
+  width: 20px;
   position: absolute;
   left: 294px;
   top: 30px;
@@ -180,6 +179,7 @@ nav {
   gap: 10px;
   background-color: cornflowerblue;
   justify-content: center;
+  padding-left: 10px;
   position: relative;
 }
 .box1 {
@@ -387,7 +387,7 @@ nav {
 }
 
 .col-25 {
-  width: 97%;
+  width: 95%;
   height: 200px;
   background-color: white;
   padding-top: 1px;
@@ -405,7 +405,7 @@ nav {
   background-color: rgb(255, 225, 0);
 }
 .col-50 {
-  width: 97%;
+  width: 95%;
   height: 300px;
   background-color: white;
 }
@@ -414,15 +414,18 @@ nav {
   margin-top: 20px;
 }
 .faber {
+  width: 100px;
   position: absolute;
   top: 92px;
   left: 20px;
 }
 .faber01 {
+  width: 167px;
   position: absolute;
   top: 15px;
   left: 136px;
 }
+
 .one {
   text-align: center;
   position: absolute;
@@ -463,7 +466,101 @@ nav {
   left: 81px;
 }
 .prime-img {
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: 268px;
+  top: 265px;
   left: 105px;
+}
+
+/* Section - 02 */
+#sec-two {
+  display: flex;
+  gap: 10px;
+  background-color: cornflowerblue;
+  justify-content: center;
+  position: relative;
+}
+.sec-container {
+  width: 24%;
+  height: 520px;
+  margin-top: 30px;
+  background-color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+.sec-box-01 {
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.sec-img-01 {
+  width: 140px;
+  height: 138px;
+}
+
+.sec-img-02 {
+  width: 140px;
+  height: 138px;
+}
+.sec-box-03 {
+  display: flex;
+  margin-top: 20px;
+  /* margin-left: 25px; */
+  justify-content: center;
+  gap: 10px;
+}
+.sec-img-03 {
+  width: 140px;
+  height: 138px;
+}
+.sec-img-04 {
+  width: 140px;
+  height: 138px;
+}
+
+.explore01 {
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.explore01:hover {
+  color: brown;
+}
+.explore02 {
+  position: absolute;
+  bottom: 8px;
+  left: 333px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.explore02:hover {
+  color: brown;
+}
+.explore03 {
+  position: absolute;
+  bottom: 8px;
+  right: 515px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.explore03:hover {
+  color: brown;
+}
+.explore04 {
+  position: absolute;
+  bottom: 8px;
+  right: 202px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.explore04:hover {
+  color: brown;
 }
