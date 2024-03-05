@@ -18,6 +18,9 @@ nav {
   color: #ffff;
   position: relative;
 }
+body {
+  background-color: rgb(183, 187, 195);
+}
 .logo {
   width: 175px;
 }
@@ -177,7 +180,7 @@ nav {
 .boxes {
   display: flex;
   gap: 10px;
-  background-color: cornflowerblue;
+  background-color: rgb(183, 187, 195);
   justify-content: center;
   padding-left: 10px;
   position: relative;
@@ -480,7 +483,7 @@ nav {
 #sec-two {
   display: flex;
   gap: 10px;
-  background-color: cornflowerblue;
+  background-color: rgb(183, 187, 195);
   justify-content: center;
   position: relative;
 }
@@ -660,3 +663,151 @@ nav {
 }
 
 /* Section - 04 */
+#section-04 {
+  width: 97%;
+  margin: 0 auto;
+  background-color: #ffff;
+}
+.section04-container {
+  margin-top: 50px;
+}
+.section04-container h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.sec04-card {
+  display: flex;
+  position: relative;
+}
+.sec04-card img {
+  width: 200px;
+  height: 230px;
+}
+.arrow001 {
+  width: 50px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 21px;
+  margin-top: 70px;
+}
+
+.arrow002 {
+  width: 50px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 21px;
+  margin-top: 70px;
+}
+
+/* Section - 05 */
+#section-05 {
+  width: 97%;
+  margin: 0 auto;
+  background-color: #ffff;
+}
+.section05-container {
+  background-color: #ffff;
+  margin-top: 50px;
+}
+.section05-container h2 {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.sec05-card {
+  display: flex;
+  position: relative;
+}
+.sec05-card img {
+  width: 200px;
+  height: 230px;
+}
+.arrow0001 {
+  /* width: 30px; */
+  height: 80px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 21px;
+  margin-top: 70px;
+}
+
+.arrow0002 {
+  /* width: 30px; */
+  height: 80px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: gainsboro;
+  padding: 21px;
+  margin-top: 70px;
+}
+
+/* Section - 06 */
+
+#sec-06 {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(183, 187, 195);
+  justify-content: center;
+  position: relative;
+}
+.sec06-container {
+  width: 24%;
+  height: 450px;
+  margin-top: 30px;
+  background-color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+.sec06-box-01 {
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.sec06-img-01 {
+  width: 140px;
+  height: 138px;
+}
+
+.sec06-img-02 {
+  width: 140px;
+  height: 138px;
+}
+.sec06-box-03 {
+  display: flex;
+  margin-top: 20px;
+  /* margin-left: 25px; */
+  justify-content: center;
+  gap: 10px;
+}
+.sec06-img-03 {
+  width: 140px;
+  height: 138px;
+}
+.sec06-img-04 {
+  width: 140px;
+  height: 138px;
+}
+
+.exploremore {
+  color: blue;
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.exploremore:hover {
+  color: brown;
+}
