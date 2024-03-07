@@ -473,9 +473,9 @@ body {
 }
 .prime-img {
   width: 50px;
-  height: 50px;
+  height: 25px;
   position: absolute;
-  top: 265px;
+  top: 274px;
   left: 105px;
 }
 
@@ -858,4 +858,81 @@ body {
 .sec07-card img {
   width: 200px;
   height: 230px;
+}
+
+/* Section - 08 */
+#sec-08 {
+  width: 80%;
+  display: flex;
+  background-color: #ffff;
+  /* justify-content: center; */
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 50px;
+}
+.img-div {
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 18px;
+}
+.text-div {
+  padding-top: 70px;
+  position: relative;
+}
+.text-div-01 {
+  font-size: 20px;
+}
+.rating {
+  padding-top: 5px;
+}
+.super {
+  color: gray;
+}
+.number {
+  color: #cc0c39;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sec-08-box {
+  width: 60px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: #cc0c39;
+  color: white;
+}
+.color-text {
+  color: #cc0c39;
+  font-weight: bold;
+  position: absolute;
+  left: 70px;
+  top: 152px;
+}
+.secondprime-img {
+  width: 50px;
+  height: 17px;
+}
+
+/* Section - 09 */
+
+.sec09-card02 {
+  width: 24%;
+  height: 500px;
+  background-color: #ffff;
+  margin-top: 30px;
+}
+.sec-09htwo {
+  padding-top: 30px;
+  text-align: center;
+}
+.single-img {
+  width: 170px;
+  margin-left: 70px;
+}
+.p-div {
+  text-align: center;
 }
