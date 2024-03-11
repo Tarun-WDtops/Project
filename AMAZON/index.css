@@ -171,11 +171,30 @@ body {
   /* background-color: #eee; */
   margin: 0 auto;
   position: relative;
+  z-index: -1;
 }
 
-.Arrow {
+.first-arrow {
+  /* width: 100px; */
+  /* height: 50px; */
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 15px;
+  z-index: 1;
   position: absolute;
-  top: 150px;
+  top: 170px;
+  left: 0px;
+}
+.second-arrow {
+  /* width: 100px; */
+  /* height: 50px; */
+  background-color: #ffff;
+  border-radius: 10px;
+  padding: 15px;
+  z-index: 1;
+  position: absolute;
+  top: 170px;
+  right: 0px;
 }
 .boxes {
   display: flex;
@@ -640,22 +659,22 @@ body {
   font-size: 19px;
 }
 .arrow01 {
-  height: 80px;
+  height: 50px;
   font-size: 30px;
   font-weight: bolder;
   border-radius: 10px;
   background-color: #ffff;
-  padding: 20px;
+  padding: 10px;
   margin-top: 100px;
 }
 
 .arrow02 {
-  height: 80px;
+  height: 50px;
   font-size: 30px;
   font-weight: bolder;
   border-radius: 10px;
   background-color: #ffff;
-  padding: 20px;
+  padding: 10px;
   margin-top: 100px;
 }
 
