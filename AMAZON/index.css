@@ -997,3 +997,72 @@ body {
 .exploremore-09:hover {
   color: brown;
 }
+
+/* Section - 10 */
+
+#section-10 {
+  width: 98%;
+  height: 360px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.section10-container {
+  background-color: #fff;
+  margin-top: 50px;
+}
+.sec10-htwo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.sec10-flex {
+  display: flex;
+  gap: 10px;
+}
+.first-img {
+  width: 230px;
+  height: 280px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgb(241, 238, 238);
+  position: relative;
+}
+.sec10-img {
+  width: 180px;
+  height: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 24px;
+}
+.sec10-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.gray {
+  color: gray;
+}
+.sec10-color {
+  width: 70px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: #cc0c39;
+  color: white;
+  margin: 5px 0px 5px 0px;
+}
+.text-color {
+  color: #cc0c39;
+  font-weight: bold;
+  position: absolute;
+  bottom: 54px;
+  right: 11px;
+}
+.sec-10div {
+  padding-left: 25px;
+}
+video {
+  border-radius: 10px;
+}
