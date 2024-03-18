@@ -42,18 +42,39 @@ header {
 .logo {
   width: 200px;
 }
-#dropdown {
-  border: none;
-  background-color: transparent;
-  font-weight: 700;
-  font-size: large;
+.parent {
+  position: relative;
 }
+.child {
+  width: 110px;
+  background-color: transparent;
+  border: 1px solid white;
+  /* text-align: center; */
+  box-shadow: 10px 5px 5px black;
+  padding-bottom: 5px;
+  position: relative;
+  top: 0px;
+  left: 380px;
+  display: none;
+}
+.parent:hover + .child {
+  display: block;
+}
+
 a {
   text-decoration: none;
   font-weight: bolder;
   font-size: larger;
   color: black;
+}
+.last-four a {
   margin-left: 30px;
+}
+.child a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  margin-left: 0px;
 }
 .first-section {
   display: flex;
