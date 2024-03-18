@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+  font-family: cursive;
+}
 .container-wrapper {
   height: 30px;
   display: flex;
@@ -19,6 +21,7 @@ img {
   background-color: transparent;
   font-weight: bold;
   font-size: large;
+  font-family: cursive;
 }
 #No {
   padding-left: 30px;
@@ -119,7 +122,7 @@ a {
 
 h1 {
   font-size: 40px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   padding-bottom: 10px;
 }
 .first-text p {
@@ -214,13 +217,13 @@ h1 {
 }
 .about-text h2 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: cursive;
   font-size: 40px;
   padding: 20px;
 }
 .about-text p {
   text-align: center;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 .boxes {
   display: flex;
@@ -253,10 +256,10 @@ h1 {
 }
 .col-50 p {
   padding: 20px;
-  font-size: 15px;
+  font-size: 13px;
 }
 .col-50 :hover {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Gallery */
@@ -338,17 +341,17 @@ h1 {
 }
 .sec-eight-01 p {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: cursive;
   padding-bottom: 20px;
 }
 .sec-htwo {
   font-size: 35px;
-  font-family: sans-serif;
+  font-family: cursive;
   padding: 30px 0px 30px 0px;
 }
 .sec-htwo-01 {
   font-size: 25px;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 .sec-nine {
   display: flex;
@@ -424,9 +427,9 @@ footer {
   justify-content: center;
   padding-bottom: 60px;
 }
-.footer-div img {
-  width: 400px;
-  padding-top: 50px;
+.footer-img {
+  width: 500px;
+  margin-top: 55px;
 }
 .info h2 {
   font-size: 35px;
@@ -436,4 +439,8 @@ footer {
 }
 .info p {
   padding-bottom: 15px;
+}
+
+button {
+  font-family: cursive;
 }
