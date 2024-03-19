@@ -42,7 +42,6 @@ header {
   position: sticky;
   top: 0;
 }
-
 .logo {
   width: 200px;
 }
@@ -58,7 +57,7 @@ header {
   padding-bottom: 5px;
   position: relative;
   top: 0px;
-  left: 380px;
+  left: 400px;
   display: none;
 }
 .parent:hover + .child {
