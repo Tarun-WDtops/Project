@@ -1,0 +1,206 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-div {
+  background: url(./Image/bodyimg.webp);
+  background-size: 100%;
+  height: 600px;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  font-size: 40px;
+}
+.nav {
+  position: sticky;
+  top: 0;
+}
+.ubereat {
+  padding-top: 140px;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.fa-solid {
+  padding: 20px;
+  font-size: 20px;
+}
+.AddressBar {
+  width: 40%;
+  height: 50px;
+  border: 0;
+}
+.Delivery {
+  width: 10%;
+  height: 50px;
+  border: 0;
+  text-align: center;
+}
+.food {
+  color: white;
+  background-color: black;
+  width: 10%;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.login {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0;
+  width: 80px;
+  height: 50px;
+  margin-left: 740px;
+}
+.signup {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0;
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+}
+.signin {
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.feed {
+  margin-top: 50px;
+  padding-right: 30px;
+}
+.employee {
+  font-size: 30px;
+  font-weight: bold;
+}
+.restaurent {
+  margin-top: 50px;
+  padding-right: 30px;
+}
+.delivery {
+  font-size: 30px;
+  font-weight: bold;
+}
+.deliver {
+  margin-top: 50px;
+  /* padding-right: 30px; */
+}
+.signuber {
+  font-size: 30px;
+  font-weight: bold;
+}
+.maindiv {
+  display: flex;
+  padding-left: 23px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.cities {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  justify-content: space-around;
+  gap: 805px;
+}
+
+.Army {
+  padding-left: 30px;
+}
+.name {
+  display: flex;
+  font-size: larger;
+  justify-content: space-around;
+  padding-top: 20px;
+  gap: 150px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  /* padding-right: 140px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.rahul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 575px;
+  font-size: larger;
+  padding-top: 50px;
+}
+
+.tarun {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 205px;
+}
+
+.main-eats {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.indian {
+  padding-left: 35px;
+}
+
+.class1 {
+  /* width: 150px; */
+  margin-left: 5px;
+  padding-bottom: 100px;
+  font-size: medium;
+}
+.class2 {
+  /* width: 150px; */
+  font-size: medium;
+  margin-left: 0px;
+}
+.appstore {
+  margin-top: 200px;
+  display: flex;
+  gap: 20px;
+  padding-left: 35px;
+}
+.brand {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  gap: 450px;
+}
+.brand1 {
+  display: flex;
+  gap: 30px;
+}
+.policy {
+  display: flex;
+  gap: 30px;
+}
+.policy1 {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 100px;
+}
