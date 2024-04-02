@@ -387,7 +387,7 @@ a {
   color: #ffffff;
 }
 .part-01 {
-  height: 300px;
+  /* height: 300px; */
   background-color: #fafafa26;
   /* opacity: 0.5; */
   margin-bottom: 50px;
@@ -414,7 +414,7 @@ a {
   font-weight: bold;
 }
 .part-02 {
-  height: 300px;
+  /* height: 300px; */
   background-color: #fafafa26;
   padding: 40px 20px 40px 20px;
 }
