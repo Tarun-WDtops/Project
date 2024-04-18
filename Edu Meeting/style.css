@@ -6,12 +6,16 @@
 body {
   background: url(./Image/meetings-bg.jpg);
 }
+.container {
+  z-index: -1;
+}
 video {
   object-fit: cover;
   width: 100%;
   /* height: 300px; */
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 header {
   background: url(./Image/third\ wp.jpg) no-repeat center/cover;

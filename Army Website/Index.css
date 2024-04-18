@@ -34,13 +34,16 @@ header {
   background: url(./Image/MainSectionImage.jpeg) no-repeat center/cover;
   height: 600px;
 }
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 .container-wrapper-01 {
   height: 100px;
   display: flex;
   justify-content: center;
   /* justify-content: space-around; */
-  position: sticky;
-  top: 0;
 }
 .logo {
   width: 200px;
