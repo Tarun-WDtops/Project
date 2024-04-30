@@ -884,6 +884,11 @@ body {
   width: 140px;
   height: 180px;
 }
+.sec06-img-001:hover {
+  /* width: 150px;
+  height: 190px; */
+  transform: scale(1.1);
+}
 .exploremore {
   color: blue;
   position: absolute;
@@ -960,6 +965,9 @@ body {
   margin-left: 50px;
   margin-top: 18px;
 }
+.img-div :hover {
+  transform: scale(0.9);
+}
 .text-div {
   padding-top: 70px;
   position: relative;
@@ -1016,8 +1024,11 @@ body {
 }
 .single-img {
   width: 170px;
-  margin-left: 70px;
   margin-top: 20px;
+  margin-left: 70px;
+}
+.single-img:hover {
+  transform: scale(1.1);
 }
 .p-div {
   /* text-align: center; */
@@ -1043,6 +1054,10 @@ body {
   padding: 5px;
   border-radius: 10px;
 }
+.short-img01:hover {
+  border: 3px solid maroon;
+  transform: scale(1.1);
+}
 .short-img {
   width: 70px;
   height: 60px;
@@ -1050,7 +1065,9 @@ body {
   padding: 5px;
   border-radius: 10px;
 }
-
+.short-img:hover {
+  transform: scale(1.1);
+}
 .exploremore-09 {
   color: blue;
   position: absolute;
