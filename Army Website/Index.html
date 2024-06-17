@@ -59,9 +59,9 @@
               <a href="#course-sec">COURSES</a>
               <a href="#about">ABOUT US</a>
               <a href="#whyUs">WHY US</a>
-              <a class="parent" href="#"
-                >MORE
-                <div class="child">
+              <a onclick="show()" id="parent" href="#"
+                >MORE &ensp;<i class="fa-solid fa-angle-down"></i>
+                <div id="child">
                   <a href="#gallery01">Gallery</a>
                   <a href="#video-sec">Videos</a>
                   <a href="#section-08">Testimonial</a>
@@ -369,5 +369,16 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      function show() {
+        let a = document.getElementById("child");
+        if ((a.style.display = "none")) {
+          a.style.display = "block";
+        } else {
+          a.style.dispay = "none";
+        }
+      }
+    </script>
   </body>
 </html>
