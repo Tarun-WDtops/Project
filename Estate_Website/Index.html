@@ -6,8 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Hello, world!</title>
+    <title>Estate_Website</title>
 
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,46 +17,95 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- Font CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="container">
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="./Image/chicago.jpg"
-              alt="First slide"
-            />
+    <div class="container-xxl">
+      <div class="first-head">
+        <div class="fst">
+          <i class="fa-solid fa-phone" style="color: #ffffff"></i
+          ><span>(+91)9694844034</span>
+
+          <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
+          <span>tjparmar786@gmail.com</span>
+        </div>
+        <div class="sec">
+          <select name="USD" id="usd-list">
+            <option value="">AUD</option>
+            <option value="">CAD</option>
+            <option value="">CHF</option>
+            <option value="">AUD</option>
+            <option value="">EUR</option>
+            <option value="">GBP</option>
+            <option value="">HKD</option>
+            <option value="">JPY</option>
+            <option value="">TAR</option>
+            <option value="">PAR</option>
+          </select>
+          <select name="Square Meters" value="SQUARE METERS" id="square-list">
+            <option value="Square Meters">Square Meters</option>
+            <option value="Square Feet">Square Feet</option>
+          </select>
+        </div>
+      </div>
+      <div class="first-header">
+        <div class="headings">
+          <img src="./Image/logo-houzez-white (1).png" alt="" class="logo" />
+
+          <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>FOR RENT</li>
+            <li>FOR SALE</li>
+            <li>FOR ARGENT</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+
+        <div class="internal-info">
+          <h1>Discover your place to live</h1>
+          <h3>Get started in few clicks</h3>
+          <div class="btns">
+            <button class="btn-info">ALL</button>
+            <button class="btn-info">FOR RENT</button>
+            <button class="btn-info">FOR SALE</button>
           </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="./Image/new-york.jpg"
-              alt="Second slide"
+        </div>
+
+        <div class="input-box">
+          <div class="inputs">
+            <div class="cities">
+              <select name="All cities" id="cities-name" title="All Cities">
+                <option value="All cities">All Cities</option>
+                <option>India</option>
+                <option>Chicago</option>
+                <option>Los Angeles</option>
+                <option>Miami</option>
+                <option>New York</option>
+              </select>
+            </div>
+            <input
+              class="text-place"
+              type="text"
+              placeholder="Enter Keyword..."
             />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="./Image/miami-beach.jpg"
-              alt="Third slide"
-            />
+            <button class="main-btn">Search</button>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

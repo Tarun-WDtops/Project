@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.first-head {
+  width: 100%;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.fst {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+select {
+  background: #000;
+  color: #fff;
+  border: none;
+}
+
+/* First-Header */
+.first-header {
+  background: url(./Image/houzez-header-1.jpg) no-repeat center/cover fixed;
+  opacity: 1;
+  padding-bottom: 100px;
+}
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.logo {
+  width: 150px;
+}
+.headings ul {
+  display: flex;
+  gap: 20px;
+  padding-top: 25px;
+}
+.headings li {
+  list-style-type: none;
+  padding: 30px 10px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+.internal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+.btns {
+  display: flex;
+  gap: 5px;
+}
+.btn-info {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  background-color: #77c720 !important;
+}
+.input-box {
+  width: 60%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#cities-name {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: gainsboro;
+  border: 1px solid gainsboro;
+}
+.text-place {
+  width: 400px;
+  height: 50px;
+  border: 1px solid gainsboro;
+  padding-left: 5px;
+}
+.main-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #77c720 !important;
+  color: #fff;
+}
