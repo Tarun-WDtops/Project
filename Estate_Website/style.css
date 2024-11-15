@@ -15,13 +15,20 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: serif;
+  font-weight: 400;
 }
 .fst {
   display: flex;
   align-items: center;
+  cursor: pointer;
   gap: 10px;
 }
+.icon:hover {
+  cursor: pointer;
+  color: #77c720;
+}
+
 select {
   background: #000;
   color: #fff;
@@ -30,8 +37,8 @@ select {
 
 /* First-Header */
 .first-header {
-  background: url(./Image/houzez-header-1.jpg) no-repeat center/cover fixed;
-  opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Image/houzez-header-1.jpg) no-repeat fixed center/cover;
   padding-bottom: 100px;
 }
 .headings {
@@ -45,44 +52,68 @@ select {
 }
 .headings ul {
   display: flex;
-  gap: 20px;
-  padding-top: 25px;
+  gap: 10px;
 }
 .headings li {
+  font-size: 14px;
   list-style-type: none;
-  padding: 30px 10px;
+  padding: 40px 5px;
+  /* letter-spacing: 1px; */
   color: #fff;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+.headings li:hover {
+  color: #77c720;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .internal-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #fff;
-  font-family: sans-serif;
+  padding-top: 40px;
 }
+.main-text {
+  font-size: 55px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.text1 {
+  font-size: 20px;
+  font-family: Sans-serif;
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 .btns {
   display: flex;
   gap: 5px;
+  padding-top: 36px;
 }
 .btn-info {
   width: 100px;
-  height: 50px;
+  height: 45px;
   border: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: none;
-  background-color: #77c720 !important;
+  background-color: #77c720;
+  color: #fff;
 }
 .input-box {
   width: 60%;
-  height: 60px;
+  height: 70px;
   border-radius: 5px;
   background-color: #fff;
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-bottom: 30px;
 }
 .inputs {
   display: flex;
@@ -94,14 +125,19 @@ select {
   width: 150px;
   height: 50px;
   background-color: #fff;
-  color: gainsboro;
+  color: rgb(189, 186, 186);
+  border-radius: 5px;
   border: 1px solid gainsboro;
 }
 .text-place {
-  width: 400px;
+  width: 425px;
   height: 50px;
   border: 1px solid gainsboro;
+  border-radius: 5px;
   padding-left: 5px;
+}
+.text-place::placeholder {
+  color: #1d1b1b;
 }
 .main-btn {
   width: 150px;
@@ -110,4 +146,108 @@ select {
   border-radius: 5px;
   background-color: #77c720 !important;
   color: #fff;
+}
+
+/* Second-Sec Start */
+#second-sec {
+  background-color: rgb(244, 245, 247);
+}
+.second-text {
+  text-align: center;
+  padding: 80px 0px;
+}
+.second-head {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.second-p {
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  color: #6d6767;
+}
+
+/* Img-Gallery */
+
+.img-gallery {
+  width: 350px;
+  height: 460px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.img-gallery:hover .fstimg :hover {
+}
+
+.col-25 {
+  position: relative;
+}
+.fstimg {
+  width: 350px;
+  height: 230px;
+  border-radius: 3px;
+}
+
+.featured {
+  padding: 3px;
+  font-size: 10px;
+  background-color: #77c720;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.span-div a {
+  color: #fff;
+}
+.rent {
+  padding: 3px;
+  font-size: 10px;
+  background-color: #2a2929;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.col-50 {
+  height: 220px;
+  text-align: center;
+  padding: 30px 0px 50px 0px;
+  background-color: #fff;
+}
+.col-50 a {
+  text-decoration: none;
+  color: #282828;
+}
+.text01-01 {
+  font-size: 25px;
+}
+.price {
+  font-size: 20px;
+  padding: 20px 0px 10px 0px;
+}
+.apart {
+  color: #6d6767;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.col-50 ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+.col-50 li {
+  list-style-type: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-50 ul li:nth-child(9) {
+  font-size: 12px;
+  color: #6d6767;
 }

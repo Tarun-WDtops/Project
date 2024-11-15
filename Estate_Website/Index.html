@@ -10,13 +10,16 @@
 
     <!-- CSS link -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- js link -->
+    <script src="index.js"></script>
     <!-- Bootstrap CSS -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
-    />
+    /> -->
     <!-- Font CDN -->
     <link
       rel="stylesheet"
@@ -28,79 +31,143 @@
   </head>
   <body>
     <div class="container-xxl">
-      <div class="first-head">
-        <div class="fst">
-          <i class="fa-solid fa-phone" style="color: #ffffff"></i
-          ><span>(+91)9694844034</span>
-
-          <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
-          <span>tjparmar786@gmail.com</span>
-        </div>
-        <div class="sec">
-          <select name="USD" id="usd-list">
-            <option value="">AUD</option>
-            <option value="">CAD</option>
-            <option value="">CHF</option>
-            <option value="">AUD</option>
-            <option value="">EUR</option>
-            <option value="">GBP</option>
-            <option value="">HKD</option>
-            <option value="">JPY</option>
-            <option value="">TAR</option>
-            <option value="">PAR</option>
-          </select>
-          <select name="Square Meters" value="SQUARE METERS" id="square-list">
-            <option value="Square Meters">Square Meters</option>
-            <option value="Square Feet">Square Feet</option>
-          </select>
-        </div>
-      </div>
-      <div class="first-header">
-        <div class="headings">
-          <img src="./Image/logo-houzez-white (1).png" alt="" class="logo" />
-
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>FOR RENT</li>
-            <li>FOR SALE</li>
-            <li>FOR ARGENT</li>
-            <li>BLOG</li>
-            <li>CONTACT</li>
-          </ul>
-        </div>
-
-        <div class="internal-info">
-          <h1>Discover your place to live</h1>
-          <h3>Get started in few clicks</h3>
-          <div class="btns">
-            <button class="btn-info">ALL</button>
-            <button class="btn-info">FOR RENT</button>
-            <button class="btn-info">FOR SALE</button>
-          </div>
-        </div>
-
-        <div class="input-box">
-          <div class="inputs">
-            <div class="cities">
-              <select name="All cities" id="cities-name" title="All Cities">
-                <option value="All cities">All Cities</option>
-                <option>India</option>
-                <option>Chicago</option>
-                <option>Los Angeles</option>
-                <option>Miami</option>
-                <option>New York</option>
-              </select>
+      <section id="section-01">
+        <div class="first-head">
+          <div class="fst">
+            <div class="icon">
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i
+              ><span>(+91)9694844034</span>
             </div>
-            <input
-              class="text-place"
-              type="text"
-              placeholder="Enter Keyword..."
-            />
-            <button class="main-btn">Search</button>
+
+            <div class="icon">
+              <i class="fa-regular fa-envelope" style="color: #ffffff"></i>
+              <span>tjparmar786@gmail.com</span>
+            </div>
+          </div>
+          <div class="icon">
+            <select name="USD" id="usd-list">
+              <option value="">USD</option>
+              <option value="">AUD</option>
+              <option value="">CAD</option>
+              <option value="">CHF</option>
+              <option value="">AUD</option>
+              <option value="">EUR</option>
+              <option value="">GBP</option>
+              <option value="">HKD</option>
+              <option value="">JPY</option>
+              <option value="">TAR</option>
+              <option value="">PAR</option>
+            </select>
+            <select name="Square Meters" value="SQUARE METERS" id="square-list">
+              <option value="Square Meters">Square Meters</option>
+              <option value="Square Feet">Square Feet</option>
+            </select>
           </div>
         </div>
-      </div>
+
+        <div class="first-header">
+          <nav>
+            <div class="headings">
+              <a href="#"
+                ><img
+                  src="./Image/logo-houzez-white (1).png"
+                  alt=""
+                  class="logo"
+              /></a>
+
+              <ul>
+                <a href=""><li>HOME</li></a>
+                <a href=""><li>ABOUT US</li></a>
+                <a href=""><li>FOR RENT</li></a>
+                <a href=""><li>FOR SALE</li></a>
+                <a href=""><li>FOR ARGENT</li></a>
+                <a href=""><li>BLOG</li></a>
+                <a href=""><li>CONTACT</li></a>
+              </ul>
+            </div>
+          </nav>
+          <div class="internal-info">
+            <p class="main-text">Discover Your Place To Live</p>
+            <p class="text1">Get started in few clicks</p>
+            <div class="btns">
+              <button id="btn1" class="btn-info" onclick="changeBg()">
+                ALL
+              </button>
+              <button id="btn2" class="btn-info" onclick="changeBg1()">
+                FOR RENT
+              </button>
+              <button id="btn3" class="btn-info" onclick="changeBg2()">
+                FOR SALE
+              </button>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="inputs">
+              <div class="cities">
+                <select name="All cities" id="cities-name" title="All Cities">
+                  <option value="All cities">All Cities</option>
+                  <option>India</option>
+                  <option>Chicago</option>
+                  <option>Los Angeles</option>
+                  <option>Miami</option>
+                  <option>New York</option>
+                </select>
+              </div>
+              <input
+                class="text-place"
+                type="text"
+                placeholder="Enter Keyword..."
+              />
+              <button class="main-btn">Search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- first section end -->
+
+      <!-- Second Section -->
+
+      <section id="second-sec">
+        <div class="second-text">
+          <p class="second-head">Our Featured Exclusives</p>
+          <p class="second-p">
+            CHOOSE FROM DIFFERENT LISTING TEMPLATES AND LAY THEM OUTxAS LISTS OR <br />
+            <p class="second-p">GRIDS, FULL-WIDTH OR BOXED</p>
+          </p>
+        </div>
+
+       
+          <div class="img-gallery">
+            <div class="col-25">
+              <img class="fstimg" src="./Image/apartment-2-592x444.jpg" alt="">
+              <div class="span-div">
+                <span class="featured">Featured</span>
+                <span class="rent"><a href="">FOR RENT</a></span>
+              </div>
+              <div class="threeicons">
+                
+              </div>
+            </div>
+            <div class="col-50">
+              <p class="text01-01"><a href="">Modern Apartment On The...</a></p>
+              <p class="price">$4,500/mo</p>
+              <p class="apart">APARTMENT</p>
+              <ul>
+                <li><i class="fa-solid fa-bed"></i></li>
+                <li>4</li>
+                <li><i class="fa-solid fa-shower"></i></li>
+                <li>2</li>
+                <li><i class="fa-solid fa-car"></i></li>
+                <li>1</li>
+                <li><i class="fa-solid fa-user-secret"></i></li>
+                <li>1200</li>
+                <li>m<sup>2</sup></li>
+              </ul>
+            </div>
+          </div>
+
+      </section>
     </div>
 
     <!-- Optional JavaScript -->
