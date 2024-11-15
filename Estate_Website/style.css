@@ -64,7 +64,7 @@ select {
   font-weight: 400;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .headings li:hover {
   color: #77c720;
@@ -102,7 +102,7 @@ a {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: none;
-  background-color: #77c720;
+  background-color: #77c720 !important;
   color: #fff;
 }
 .input-box {
@@ -154,7 +154,7 @@ a {
 }
 .second-text {
   text-align: center;
-  padding: 80px 0px;
+  padding: 40px 0px;
 }
 .second-head {
   font-size: 45px;
@@ -169,14 +169,17 @@ a {
 }
 
 /* Img-Gallery */
-
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
 .img-gallery {
   width: 350px;
   height: 460px;
   background-color: #fff;
   border-radius: 3px;
-}
-.img-gallery:hover .fstimg :hover {
 }
 
 .col-25 {
@@ -184,8 +187,9 @@ a {
 }
 .fstimg {
   width: 350px;
-  height: 230px;
-  border-radius: 3px;
+  height: 250px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .featured {
@@ -215,6 +219,39 @@ a {
   top: 10px;
   right: 10px;
 }
+.rent a:hover {
+  color: #77c720;
+}
+.expond {
+  padding: 5px;
+  position: absolute;
+  bottom: 25px;
+  right: 100px;
+}
+.expond:hover {
+  background-color: #373636;
+  border-radius: 3px;
+}
+.heart {
+  padding: 5px;
+  position: absolute;
+  bottom: 25px;
+  right: 60px;
+}
+.heart:hover {
+  background-color: #373636;
+  border-radius: 3px;
+}
+.plus {
+  padding: 5px;
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+}
+.plus:hover {
+  background-color: #373636;
+  border-radius: 3px;
+}
 .col-50 {
   height: 220px;
   text-align: center;
@@ -228,14 +265,18 @@ a {
 .text01-01 {
   font-size: 25px;
 }
+.text01-01 a:hover {
+  color: #77c720;
+}
 .price {
-  font-size: 20px;
-  padding: 20px 0px 10px 0px;
+  font-size: 17px;
+  /* padding: 0px 0px 10px 0px; */
+  font-family: sans-serif;
 }
 .apart {
   color: #6d6767;
   font-size: 12px;
-  padding-bottom: 20px;
+  /* padding-bottom: 10px; */
 }
 .col-50 ul {
   display: flex;
@@ -250,4 +291,26 @@ a {
 .col-50 ul li:nth-child(9) {
   font-size: 12px;
   color: #6d6767;
+}
+
+.load-btn {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #77c720;
+  color: #77c720;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.load-btn-div {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 60px 0px;
+}
+/* Slider */
+.carousel-inner {
+  width: 100%;
+  height: 650px;
 }
