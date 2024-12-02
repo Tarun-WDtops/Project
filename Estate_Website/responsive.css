@@ -1,0 +1,92 @@
+@media screen and (max-width: 1400px) {
+  .fstimg {
+    width: 420px;
+  }
+  .sec-text {
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+  }
+  .img1 {
+    width: 350px;
+  }
+  .img2 {
+    width: 350px;
+  }
+  .agent-item {
+    width: 400px;
+  }
+  .people {
+    width: 50px;
+  }
+
+  .col-25-flex01 h2 {
+    font-size: 25px;
+  }
+  .col-25-p {
+    font-size: 20px;
+    padding-left: 70px;
+  }
+  .six-col-25 {
+    gap: 40px;
+  }
+  .seven-img-bg {
+    height: 450px;
+  }
+  .seven-img-bg01 {
+    height: 430px;
+  }
+  .eight-text {
+    width: 420px;
+    /* margin-left: 100px; */
+  }
+  #eight-sec {
+    /* gap: 40px; */
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .input-box {
+    width: 65%;
+  }
+  .fstimg {
+    width: 360px;
+  }
+  .img1 {
+    width: 300px;
+  }
+  .img2 {
+    width: 300px;
+  }
+  .agent-item {
+    width: 330px;
+  }
+  .people {
+    width: 40px;
+  }
+  .col-25-flex01 h2 {
+    font-size: 20px;
+  }
+  .col-25-p {
+    font-size: 15px;
+    padding-left: 60px;
+  }
+  .seven-img-bg {
+    height: 430px;
+  }
+  .seven-img-bg01 {
+    height: 420px;
+  }
+  .eight-p {
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}

@@ -588,9 +588,9 @@ a {
 }
 .col-25-p {
   color: #636363;
-  font-size: 15px;
+  font-size: 13px;
   font-family: sans-serif;
-  padding-bottom: 10px;
+  line-height: 30px;
   padding-left: 60px;
 }
 .six-col-25 {
